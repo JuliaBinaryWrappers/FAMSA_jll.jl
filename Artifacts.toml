@@ -9,190 +9,62 @@ os = "macos"
 [[FAMSA]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ff5265fd528368df4cfa95c2f9a8a760334e0697"
+git-tree-sha1 = "3120680b7aa3dc4535d8287e31e1715563c5bded"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "7f01f8a472695f0e988fc6617623445dcbf597b4203d4422a744fcd8ced9e60d"
+    sha256 = "70eb46ba87683c97e1a1aa359caad34731f217b36fe36f9b610619f9bd491484"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.aarch64-linux-gnu-cxx03.tar.gz"
 [[FAMSA]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d1bb417876f80c577202fcf80b115af5b8d92037"
+git-tree-sha1 = "a5e6f369067ecb1bfde9ceb95c7db65e56ab792f"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "ae8419d54043d4d4094140d806a9ff6e355b03106cc587706c1f6fc89535c8d5"
+    sha256 = "c0445fe2c103287e10b9c1a02d97a15771562efd91b2157193f5f097627e0f26"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[FAMSA]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5362f376210d4a1511bab021cd493ddd4a71ef6e"
+git-tree-sha1 = "8340f99e5e8b1061d04530aa80bf05cd2687ebd9"
 libc = "musl"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "a040288edf532bbe071c48f06bc095171729b2ab0f46ba38b9439e422c3a664f"
+    sha256 = "8a9f1048eda06ce14d796190ff7cc68774f7efcbfb831e5a4a2a2caa9eaa454a"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.aarch64-linux-musl-cxx03.tar.gz"
 [[FAMSA]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f3f00eb67c1148e940e89c7370c9d6f28bf052af"
+git-tree-sha1 = "7e4aaad2cfcf90f2c85cba17821502e6490af003"
 libc = "musl"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "cec0b642ad1372ae296b6ceb8c301c9d4db083cf63df76f18df0fe05d9c52289"
+    sha256 = "b30fd6663521a0e3f649c7dd1c2dfad4394c191dc606404de3fd971e2182869c"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.aarch64-linux-musl-cxx11.tar.gz"
-[[FAMSA]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4101abb14becaa30cc32d12cf140cb2850afc797"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "8d3f268f0c840b862860b308de79599641d902509729b5071ab9eeb61cbe2917"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
-[[FAMSA]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e7d373d3dcc6d845cb99ba96faa6b7489f5d7aff"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "1dab95c1668f919d872575a2176bb9e44e960a2a01b0975e4603408a6a54c2f7"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[FAMSA]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "88b155d6e4b4fea04fc69a445d1ba03ba56c735e"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "572db8a34b574f9ffc0b37c3676364bf16a2797596c6aec9862a684473b7f865"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[FAMSA]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d2dd3eab2fdee95626252168c63a69666dff560b"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "c1be4d8348d8fb0ebd283d0e10d93fedf320725d88321241041f724287a7476b"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[FAMSA]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2d9568c7486d67aea8ec6adfa91d2c0c37678389"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "8ecccdcff8ebe8bce0729b0e4dbb39948c5af242560887949e60d8e7e7b4260f"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[FAMSA]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c5d82a4dd87ce00073e3d53e4a75acb49c405b1c"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "d4685fec3223d196e0add5faa8f58f92decdf5a748b84a7be468672f7d7fb5ec"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[FAMSA]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9ce8e0a71caeb5c405bc85fc0032dd51f015ad91"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "ca1800a075c2c5cbabdfcde90080133ca87d65a3aa81461d0257c85a19e80515"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[FAMSA]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fc9c62a8a7d3de51103c444e9adb25343cead6aa"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "c0e1356eb0f3dd1a53a3eaed077a7e5b5d84a73ff5aef8e16aa632b5c29a3690"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[FAMSA]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8ff09107497004166010e527864c80e683af0d5d"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "00f94f3c57d9a7197d704cc94f8b8261390b76223a2076fbbc9c64d5577eaf27"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.i686-linux-gnu-cxx03.tar.gz"
-[[FAMSA]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a2c9cac59d3399b907ff6240463a2ab369c74019"
-libc = "glibc"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "7981c54177e2328835f0e33d92ebfbdd4b53dd2818b4017b5491186ddaf4c95b"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.i686-linux-gnu-cxx11.tar.gz"
-[[FAMSA]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a012572564bb996c038c952d14e02d3796b5d0a9"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "a45b803410e11837d04c58eaf49f429d003dbb01d0af0bec0ebf75279adfc73a"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.i686-linux-musl-cxx03.tar.gz"
-[[FAMSA]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3f15026ab19217ad2f8824d452e28c5010929105"
-libc = "musl"
-os = "linux"
-
-    [[FAMSA.download]]
-    sha256 = "a37b33bf595b8d4823ade2eb6b98e07723cdc32fb9c478b127483fe75e22adb7"
-    url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.i686-linux-musl-cxx11.tar.gz"
 [[FAMSA]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b9be507dd6a170ea79349a5ade48162c81273c81"
+git-tree-sha1 = "558d072ea9d5a25e8d48b6577f53e1d0085fefb6"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "4c1a5e5b2e82e0430d8ca23b285401be0c387ca25e82b2972fa7b287aea4cf50"
+    sha256 = "9f30ac2e3991cb17643d5094a46e05bfe9aeea7395beba93e21c57dcfa5a89ea"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[FAMSA]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1d5a234fb61034b16aa14d071b58075cc0326217"
+git-tree-sha1 = "fe1dab3bd10cb7d2b53e3e4ae2b324fed085b570"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "9c50c01c1933cb259dc9901e18d2469984997af64de974182e7e4820ce26ef2d"
+    sha256 = "c26326efc72cf12154b94c2443317524f42c9947df62543fbe6f9867624c83bb"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[FAMSA]]
 arch = "x86_64"
@@ -215,40 +87,40 @@ os = "macos"
 [[FAMSA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "7b8f4e30b23f0cb10e368d649b47ad207d6aa414"
+git-tree-sha1 = "0809fe8bf679c572f272b48f80a1e1ffaea640ec"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "55aa2ae51461560bc79cd1a19be86e019f1669003e4b908e25e088e37d3f12af"
+    sha256 = "de5f316578deb477fcf597ee8453463ffe2f8cc7710e253e3789563b255a2c62"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[FAMSA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0a49061cedc1dc1b175f15a3858ec303fc1af90b"
+git-tree-sha1 = "b2589155e8cc498194a91888f050b6dfeba51aff"
 libc = "glibc"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "28281f6a78fbb8ee445cc418d268d4b623149da4babe4ffc5bd6e52a13303feb"
+    sha256 = "ad042d9866f9de565b7b4ac6b7df802525eb125cee08fb1b5f94b2fc57c75580"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.x86_64-linux-gnu-cxx11.tar.gz"
 [[FAMSA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8431875c3265845ae116c1f126652fc4fe5c0f33"
+git-tree-sha1 = "bac259bfe41fc4dc2955f1c3e68843fdafc9277c"
 libc = "musl"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "8c56473455c8c07e733cd2a4f60264f57c8c983f000c7aecb5268c163a6c9804"
+    sha256 = "c4e0cea98553bbb5b438a52aa28b0e10485a5418225a880d42b2b1f2cbc2b146"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.x86_64-linux-musl-cxx03.tar.gz"
 [[FAMSA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ef6f5274fdbd00ae449061e211d6818d6f799db3"
+git-tree-sha1 = "046e83aaf04141308e6957592c061bc1b76ee234"
 libc = "musl"
 os = "linux"
 
     [[FAMSA.download]]
-    sha256 = "5ca03b6a6775b9e8c219abf7d6b4b73a92c8462b1f995f7681a5079b28047cad"
+    sha256 = "9273241b2499c8b89ea8b0ef57cd6b3a0100081a09ab97c96a0f378698057db3"
     url = "https://github.com/JuliaBinaryWrappers/FAMSA_jll.jl/releases/download/FAMSA-v2.2.2+0/FAMSA.v2.2.2.x86_64-linux-musl-cxx11.tar.gz"
