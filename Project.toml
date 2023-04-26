@@ -1,6 +1,6 @@
 name = "FAMSA_jll"
 uuid = "03e070a6-cabd-5a65-a0e2-949769773651"
-version = "2.2.2+0"
+version = "2.2.2+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
